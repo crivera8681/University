@@ -1,0 +1,56 @@
+CreateNewDepartment ComputerScience Science-2 0
+CreateNewDepartment Education Science-1 0
+CreateNewDepartment Business Craven-Hall 0
+CreateNewDepartment Engineering Machray-Hall 0
+CreateNewDepartment Biology Science-2 110
+ListDepartments
+CreateNewFaculty John_Smith jsmith@csusm.edu 99_Broadway_Street 10/19/1960 Male 60000 5 100
+CreateNewFaculty Bob_Anderson banderson@csusm.edu 130_San_Marcos_Avenue 09/21/1958 Male 70000 8 100
+CreateNewFaculty Sue_Clark sclark@csusm.edu 113_Santa_Fe_Road Female 02/05/1970 50000 2 100
+CreateNewFaculty Abu_Talib atalib@csusm.edu 311_Twin_Oaks_Road 03/03/1970 Male 55000 5 101
+CreateNewFaculty Nancy_Bank nbank@csusm.edu 300_El_Camino_real 04/07/1975 Female 62000 4 101
+CreateNewFaculty Susan_Brown sbrown@csusm.edu 123_Winner_Avenue 07/14/1976 Female 62000 4 101
+CreateNewFaculty Ahmad_Saleh asaleh@csusm.edu 211_Miramar_Avenue 12/12/1968 Male 75000 12 102
+CreateNewFaculty Beth_Card bcard@csusm.edu 111_Land_Road 11/15/1971 Female 63000 7 102
+CreateNewFaculty Joe_Abraham jabraham@csusm.edu 100_Star_Street 02/01/1959 Male 8200 14 102
+CreateNewFaculty Andy_Chan achan@csusm.edu 777_Plant_Avenue 12/07/1950 Male 93000 24 130
+ListFaculties
+ListFacultiesInDepartment 100
+ListFacultiesInDepartment 101
+ListFacultiesInDepartment 102
+ListFacultiesInDepartment 130
+CreateNewStudent Kathy_Chen kchen001@csusm.edu 999_Morning_Street 01/02/1982 Female 1 ComputerScience 600
+CreateNewStudent Kelly_Wong kwong001@csusm.edu 999_Palace_Avenue 02/12/1980 Male 2 ComputerScience 600
+CreateNewStudent Layla_Esmail lesmail001@csusm.edu 999_Perry_Crescent 11/12/1980 Female 2 ComputerScience 910
+ListStudents
+ListStudentsOfAFaculty 600
+ListStudentsOfAFaculty 650
+CreateNewCourse CS111 100 600 60
+CreateNewCourse CS211 100 600 60
+CreateNewCourse CS311 100 0 30
+CreateNewCourse Ed100 101 603 45
+CreateNewCourse Ed200 101 603 45
+CreateNewCourse Ed300 101 0 30
+CreateNewCourse Bus101 102 606 40
+CreateNewCourse Bus102 102 606 40
+CreateNewCourse Bus103 102 607 40
+CreateNewCourse Bio103 102 706 40
+ListCourses
+ListCoursesTaughtByFaculty 606 
+ListCoursesTaughtByFaculty 706
+ListCoursesOfADepartment 100
+ListCoursesOfADepartment 101
+ListCoursesOfADepartment 102
+ListCoursesOfADepartment 130
+AddACourseForAStudent 200 500
+AddACourseForAStudent 201 500
+AddACourseForAStudent 202 500
+AddACourseForAStudent 230 500
+ListCoursesTakenByStudent 500
+ListCoursesTakenByStudent 520
+ListCoursesTakenByStudent 500
+AssignDepartmentChair 600 100
+AssignDepartmentChair 610 101
+AssignDepartmentChair 601 110
+AssignInstructorToCourse 600 202
+ListCoursesTaughtByFaculty 600
